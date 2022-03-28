@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-exercise",
+  "version": "1.0.0",
+  "description": "This repository is created for the rabbitmq exercise",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "consumer": "node consumer.js",
+    "consumer2": "node consumer2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mert9259/rabbitmq-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mert9259/rabbitmq-exercise/issues"
+  },
+  "homepage": "https://github.com/mert9259/rabbitmq-exercise#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
